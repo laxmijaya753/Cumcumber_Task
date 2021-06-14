@@ -19,7 +19,7 @@ public class CanCalculateDividedAndMultiply {
 		calculator1 = new Calculator();
 	}
 //the Calculator divides 12 by 3
-	@When("the Calculator divides {int} by {int}")
+	@When("the Calculator divides {int} by {int} is Divided")
 	public void andAreDivided(Integer num1, Integer num2) {
 		actualResult = calculator1.divide(num1, num2);
 	}

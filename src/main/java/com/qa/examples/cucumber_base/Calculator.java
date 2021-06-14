@@ -26,9 +26,7 @@ public class Calculator {
 	}
 	
 	public double divide(double a, double b) {
-		if(b==0 ) {
-			return 0.0d;
-		}
+		
 		return a/b;
 	}
 	
