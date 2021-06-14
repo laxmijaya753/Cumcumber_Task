@@ -32,7 +32,7 @@ To test whether the Calculator can multiply or  divide
     
 
  
-  Scenario:Does the Calculator divided two  numbers correctly?
+  Scenario: Does the Calculator divided two  numbers correctly?
     Given A new Calculator
-    When the Calculator divides 12 by 3are Divided
+    When the Calculator divides 12 by 3 is Divided
     Then the answer should be 4.
